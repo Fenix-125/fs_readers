@@ -1,9 +1,10 @@
-# Lab 2 Option 3: Adder
+# Lab 7: File Systems: FAT16
 
 ## Team
 
- - [Volodymyr Chernetskyi](https://github.com/chernetskyi)
-
+ - [Yuriy Pasichnyk](https://github.com/Fenix-125)
+ - [Morhunenko Mykola](https://github.com/Myralllka)
+ 
 ## Prerequisites
 
  - **C++ compiler** - needs to support **C++17** standard
@@ -15,7 +16,7 @@ Dependencies (such as development libraries) can be found in the [dependencies f
 
 1. Clone the project.
     ```bash
-    git clone git@github.com:chernetskyi/cpp-template.git
+    git clone git@github.com:Fenix-125/fs_readers.git
     ```
 2. Install required packages.
 
@@ -37,7 +38,7 @@ Dependencies (such as development libraries) can be found in the [dependencies f
 ## Usage
 
 ```bash
-add [a] [b]
+fat16_reader [file_with_fat16]
 ```
 
 If less than two numbers provided, zeroes are used instead. If more - an error occurs.
